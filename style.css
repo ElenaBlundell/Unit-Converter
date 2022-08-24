@@ -1,0 +1,106 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+body {
+    color: #F4F4F4;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #6943FF;
+    font-weight: 800;
+    height: 45vh;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 2rem;
+    font-size: 7rem;
+}
+
+.input-block {
+    margin-top: 30px;
+    margin-left: 44vw;
+    margin-right: 44vw;
+}
+
+#input-value {
+    width: 117px;
+    height: 100px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    font-size: 6rem;
+    text-align: center;
+}
+
+::placeholder {
+    color: #FFF;
+    text-align: center;
+    font-size: 6rem;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#convert-btn {
+font-weight: 500;
+font-size: 16px;
+color: #3D3D3D;
+width: 120px;
+height: 42px;
+background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+
+margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #F4F4F4;
+    height: 60vh;
+    font-weight: 600;
+}
+
+main h2 {
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    color: #5A537B;
+}
+
+main p {
+    color: #353535;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.unit-block {
+    background: #FFF;
+    width: 90vw;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
