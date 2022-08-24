@@ -1,6 +1,6 @@
 
-const /*givenValue*/ inputValue = document.getElementById("input-value")
-const /*numberToConvert*/ givenNumber = document.getElementsByClassName("given-number")
+const inputValue = document.getElementById("input-value")
+const givenNumber = document.getElementsByClassName("given-number")
 const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function(){
